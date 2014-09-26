@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9C81DF519D623D00089142D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C81DF419D623D00089142D /* Foundation.framework */; };
+		C9C81DF719D623D00089142D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C81DF619D623D00089142D /* CoreGraphics.framework */; };
+		C9C81DF919D623D00089142D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C81DF819D623D00089142D /* UIKit.framework */; };
+		C9C81DFF19D623D00089142D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9C81DFD19D623D00089142D /* InfoPlist.strings */; };
+		C9C81E0119D623D00089142D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C81E0019D623D00089142D /* main.m */; };
+		C9C81E0519D623D00089142D /* FavAlbumsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C81E0419D623D00089142D /* FavAlbumsAppDelegate.m */; };
+		C9C81E0819D623D00089142D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9C81E0619D623D00089142D /* Main.storyboard */; };
+		C9C81E0B19D623D00089142D /* FavAlbumsMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C81E0A19D623D00089142D /* FavAlbumsMasterViewController.m */; };
+		C9C81E0E19D623D00089142D /* FavAlbumsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C81E0D19D623D00089142D /* FavAlbumsDetailViewController.m */; };
+		C9C81E1019D623D00089142D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9C81E0F19D623D00089142D /* Images.xcassets */; };
+		C9C81E1719D623D00089142D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C81E1619D623D00089142D /* XCTest.framework */; };
+		C9C81E1819D623D00089142D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C81DF419D623D00089142D /* Foundation.framework */; };
+		C9C81E1919D623D00089142D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C81DF819D623D00089142D /* UIKit.framework */; };
+		C9C81E2119D623D00089142D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9C81E1F19D623D00089142D /* InfoPlist.strings */; };
+		C9C81E2319D623D00089142D /* FavAlbumsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C81E2219D623D00089142D /* FavAlbumsTests.m */; };
+		C9C81E3719D6259A0089142D /* Alleluia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9C81E2D19D6259A0089142D /* Alleluia.jpg */; };
+		C9C81E3819D6259A0089142D /* Attack on Titan Original Soundtrack II.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9C81E2E19D6259A0089142D /* Attack on Titan Original Soundtrack II.jpg */; };
+		C9C81E3919D6259A0089142D /* Higurashi no Naku Koro ni Hou Original Sound Version & Aditional Tracks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9C81E2F19D6259A0089142D /* Higurashi no Naku Koro ni Hou Original Sound Version & Aditional Tracks.jpg */; };
+		C9C81E3A19D6259A0089142D /* Higurashi x Umineko no Naku Koro ni Piano Collection.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9C81E3019D6259A0089142D /* Higurashi x Umineko no Naku Koro ni Piano Collection.jpg */; };
+		C9C81E3B19D6259A0089142D /* Kara no Kyoukai Music Collection.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9C81E3119D6259A0089142D /* Kara no Kyoukai Music Collection.jpg */; };
+		C9C81E3C19D6259A0089142D /* Red Moon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9C81E3219D6259A0089142D /* Red Moon.jpg */; };
+		C9C81E3D19D6259A0089142D /* The Best Blue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9C81E3319D6259A0089142D /* The Best Blue.jpg */; };
+		C9C81E3E19D6259A0089142D /* The Best Red.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9C81E3419D6259A0089142D /* The Best Red.jpg */; };
+		C9C81E3F19D6259A0089142D /* Umineko no Naku Koro ni Chiru.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9C81E3519D6259A0089142D /* Umineko no Naku Koro ni Chiru.jpg */; };
+		C9C81E4019D6259A0089142D /* Umineko no Naku Koro ni.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9C81E3619D6259A0089142D /* Umineko no Naku Koro ni.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9C81E1A19D623D00089142D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9C81DE919D623D00089142D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9C81DF019D623D00089142D;
+			remoteInfo = FavAlbums;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9C81DF119D623D00089142D /* FavAlbums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavAlbums.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C81DF419D623D00089142D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C9C81DF619D623D00089142D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C9C81DF819D623D00089142D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C9C81DFC19D623D00089142D /* FavAlbums-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FavAlbums-Info.plist"; sourceTree = "<group>"; };
+		C9C81DFE19D623D00089142D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9C81E0019D623D00089142D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9C81E0219D623D00089142D /* FavAlbums-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FavAlbums-Prefix.pch"; sourceTree = "<group>"; };
+		C9C81E0319D623D00089142D /* FavAlbumsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FavAlbumsAppDelegate.h; sourceTree = "<group>"; };
+		C9C81E0419D623D00089142D /* FavAlbumsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavAlbumsAppDelegate.m; sourceTree = "<group>"; };
+		C9C81E0719D623D00089142D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9C81E0919D623D00089142D /* FavAlbumsMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FavAlbumsMasterViewController.h; sourceTree = "<group>"; };
+		C9C81E0A19D623D00089142D /* FavAlbumsMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavAlbumsMasterViewController.m; sourceTree = "<group>"; };
+		C9C81E0C19D623D00089142D /* FavAlbumsDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FavAlbumsDetailViewController.h; sourceTree = "<group>"; };
+		C9C81E0D19D623D00089142D /* FavAlbumsDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavAlbumsDetailViewController.m; sourceTree = "<group>"; };
+		C9C81E0F19D623D00089142D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C9C81E1519D623D00089142D /* FavAlbumsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FavAlbumsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C81E1619D623D00089142D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C9C81E1E19D623D00089142D /* FavAlbumsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FavAlbumsTests-Info.plist"; sourceTree = "<group>"; };
+		C9C81E2019D623D00089142D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9C81E2219D623D00089142D /* FavAlbumsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavAlbumsTests.m; sourceTree = "<group>"; };
+		C9C81E2D19D6259A0089142D /* Alleluia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Alleluia.jpg; path = Images/Alleluia.jpg; sourceTree = "<group>"; };
+		C9C81E2E19D6259A0089142D /* Attack on Titan Original Soundtrack II.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Attack on Titan Original Soundtrack II.jpg"; path = "Images/Attack on Titan Original Soundtrack II.jpg"; sourceTree = "<group>"; };
+		C9C81E2F19D6259A0089142D /* Higurashi no Naku Koro ni Hou Original Sound Version & Aditional Tracks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Higurashi no Naku Koro ni Hou Original Sound Version & Aditional Tracks.jpg"; path = "Images/Higurashi no Naku Koro ni Hou Original Sound Version & Aditional Tracks.jpg"; sourceTree = "<group>"; };
+		C9C81E3019D6259A0089142D /* Higurashi x Umineko no Naku Koro ni Piano Collection.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Higurashi x Umineko no Naku Koro ni Piano Collection.jpg"; path = "Images/Higurashi x Umineko no Naku Koro ni Piano Collection.jpg"; sourceTree = "<group>"; };
+		C9C81E3119D6259A0089142D /* Kara no Kyoukai Music Collection.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Kara no Kyoukai Music Collection.jpg"; path = "Images/Kara no Kyoukai Music Collection.jpg"; sourceTree = "<group>"; };
+		C9C81E3219D6259A0089142D /* Red Moon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Red Moon.jpg"; path = "Images/Red Moon.jpg"; sourceTree = "<group>"; };
+		C9C81E3319D6259A0089142D /* The Best Blue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "The Best Blue.jpg"; path = "Images/The Best Blue.jpg"; sourceTree = "<group>"; };
+		C9C81E3419D6259A0089142D /* The Best Red.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "The Best Red.jpg"; path = "Images/The Best Red.jpg"; sourceTree = "<group>"; };
+		C9C81E3519D6259A0089142D /* Umineko no Naku Koro ni Chiru.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Umineko no Naku Koro ni Chiru.jpg"; path = "Images/Umineko no Naku Koro ni Chiru.jpg"; sourceTree = "<group>"; };
+		C9C81E3619D6259A0089142D /* Umineko no Naku Koro ni.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Umineko no Naku Koro ni.jpg"; path = "Images/Umineko no Naku Koro ni.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9C81DEE19D623D00089142D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C81DF719D623D00089142D /* CoreGraphics.framework in Frameworks */,
+				C9C81DF919D623D00089142D /* UIKit.framework in Frameworks */,
+				C9C81DF519D623D00089142D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C81E1219D623D00089142D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C81E1719D623D00089142D /* XCTest.framework in Frameworks */,
+				C9C81E1919D623D00089142D /* UIKit.framework in Frameworks */,
+				C9C81E1819D623D00089142D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9C81DE819D623D00089142D = {
+			isa = PBXGroup;
+			children = (
+				C9C81E2C19D625600089142D /* Images */,
+				C9C81DFA19D623D00089142D /* FavAlbums */,
+				C9C81E1C19D623D00089142D /* FavAlbumsTests */,
+				C9C81DF319D623D00089142D /* Frameworks */,
+				C9C81DF219D623D00089142D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9C81DF219D623D00089142D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9C81DF119D623D00089142D /* FavAlbums.app */,
+				C9C81E1519D623D00089142D /* FavAlbumsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9C81DF319D623D00089142D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9C81DF419D623D00089142D /* Foundation.framework */,
+				C9C81DF619D623D00089142D /* CoreGraphics.framework */,
+				C9C81DF819D623D00089142D /* UIKit.framework */,
+				C9C81E1619D623D00089142D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9C81DFA19D623D00089142D /* FavAlbums */ = {
+			isa = PBXGroup;
+			children = (
+				C9C81E4119D626B50089142D /* iPad */,
+				C9C81E0319D623D00089142D /* FavAlbumsAppDelegate.h */,
+				C9C81E0419D623D00089142D /* FavAlbumsAppDelegate.m */,
+				C9C81E0619D623D00089142D /* Main.storyboard */,
+				C9C81E0919D623D00089142D /* FavAlbumsMasterViewController.h */,
+				C9C81E0A19D623D00089142D /* FavAlbumsMasterViewController.m */,
+				C9C81E0C19D623D00089142D /* FavAlbumsDetailViewController.h */,
+				C9C81E0D19D623D00089142D /* FavAlbumsDetailViewController.m */,
+				C9C81E0F19D623D00089142D /* Images.xcassets */,
+				C9C81DFB19D623D00089142D /* Supporting Files */,
+			);
+			path = FavAlbums;
+			sourceTree = "<group>";
+		};
+		C9C81DFB19D623D00089142D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9C81DFC19D623D00089142D /* FavAlbums-Info.plist */,
+				C9C81DFD19D623D00089142D /* InfoPlist.strings */,
+				C9C81E0019D623D00089142D /* main.m */,
+				C9C81E0219D623D00089142D /* FavAlbums-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9C81E1C19D623D00089142D /* FavAlbumsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9C81E2219D623D00089142D /* FavAlbumsTests.m */,
+				C9C81E1D19D623D00089142D /* Supporting Files */,
+			);
+			path = FavAlbumsTests;
+			sourceTree = "<group>";
+		};
+		C9C81E1D19D623D00089142D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9C81E1E19D623D00089142D /* FavAlbumsTests-Info.plist */,
+				C9C81E1F19D623D00089142D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9C81E2C19D625600089142D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C9C81E2D19D6259A0089142D /* Alleluia.jpg */,
+				C9C81E2E19D6259A0089142D /* Attack on Titan Original Soundtrack II.jpg */,
+				C9C81E2F19D6259A0089142D /* Higurashi no Naku Koro ni Hou Original Sound Version & Aditional Tracks.jpg */,
+				C9C81E3019D6259A0089142D /* Higurashi x Umineko no Naku Koro ni Piano Collection.jpg */,
+				C9C81E3119D6259A0089142D /* Kara no Kyoukai Music Collection.jpg */,
+				C9C81E3219D6259A0089142D /* Red Moon.jpg */,
+				C9C81E3319D6259A0089142D /* The Best Blue.jpg */,
+				C9C81E3419D6259A0089142D /* The Best Red.jpg */,
+				C9C81E3519D6259A0089142D /* Umineko no Naku Koro ni Chiru.jpg */,
+				C9C81E3619D6259A0089142D /* Umineko no Naku Koro ni.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		C9C81E4119D626B50089142D /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9C81DF019D623D00089142D /* FavAlbums */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C81E2619D623D10089142D /* Build configuration list for PBXNativeTarget "FavAlbums" */;
+			buildPhases = (
+				C9C81DED19D623D00089142D /* Sources */,
+				C9C81DEE19D623D00089142D /* Frameworks */,
+				C9C81DEF19D623D00089142D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FavAlbums;
+			productName = FavAlbums;
+			productReference = C9C81DF119D623D00089142D /* FavAlbums.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9C81E1419D623D00089142D /* FavAlbumsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C81E2919D623D10089142D /* Build configuration list for PBXNativeTarget "FavAlbumsTests" */;
+			buildPhases = (
+				C9C81E1119D623D00089142D /* Sources */,
+				C9C81E1219D623D00089142D /* Frameworks */,
+				C9C81E1319D623D00089142D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9C81E1B19D623D00089142D /* PBXTargetDependency */,
+			);
+			name = FavAlbumsTests;
+			productName = FavAlbumsTests;
+			productReference = C9C81E1519D623D00089142D /* FavAlbumsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9C81DE919D623D00089142D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FavAlbums;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Matt Williams";
+				TargetAttributes = {
+					C9C81E1419D623D00089142D = {
+						TestTargetID = C9C81DF019D623D00089142D;
+					};
+				};
+			};
+			buildConfigurationList = C9C81DEC19D623D00089142D /* Build configuration list for PBXProject "FavAlbums" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9C81DE819D623D00089142D;
+			productRefGroup = C9C81DF219D623D00089142D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9C81DF019D623D00089142D /* FavAlbums */,
+				C9C81E1419D623D00089142D /* FavAlbumsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9C81DEF19D623D00089142D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C81E3719D6259A0089142D /* Alleluia.jpg in Resources */,
+				C9C81E3B19D6259A0089142D /* Kara no Kyoukai Music Collection.jpg in Resources */,
+				C9C81E3C19D6259A0089142D /* Red Moon.jpg in Resources */,
+				C9C81E1019D623D00089142D /* Images.xcassets in Resources */,
+				C9C81E3819D6259A0089142D /* Attack on Titan Original Soundtrack II.jpg in Resources */,
+				C9C81E3919D6259A0089142D /* Higurashi no Naku Koro ni Hou Original Sound Version & Aditional Tracks.jpg in Resources */,
+				C9C81DFF19D623D00089142D /* InfoPlist.strings in Resources */,
+				C9C81E0819D623D00089142D /* Main.storyboard in Resources */,
+				C9C81E4019D6259A0089142D /* Umineko no Naku Koro ni.jpg in Resources */,
+				C9C81E3A19D6259A0089142D /* Higurashi x Umineko no Naku Koro ni Piano Collection.jpg in Resources */,
+				C9C81E3E19D6259A0089142D /* The Best Red.jpg in Resources */,
+				C9C81E3D19D6259A0089142D /* The Best Blue.jpg in Resources */,
+				C9C81E3F19D6259A0089142D /* Umineko no Naku Koro ni Chiru.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C81E1319D623D00089142D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C81E2119D623D00089142D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9C81DED19D623D00089142D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C81E0519D623D00089142D /* FavAlbumsAppDelegate.m in Sources */,
+				C9C81E0E19D623D00089142D /* FavAlbumsDetailViewController.m in Sources */,
+				C9C81E0119D623D00089142D /* main.m in Sources */,
+				C9C81E0B19D623D00089142D /* FavAlbumsMasterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C81E1119D623D00089142D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C81E2319D623D00089142D /* FavAlbumsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9C81E1B19D623D00089142D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9C81DF019D623D00089142D /* FavAlbums */;
+			targetProxy = C9C81E1A19D623D00089142D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9C81DFD19D623D00089142D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9C81DFE19D623D00089142D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C9C81E0619D623D00089142D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9C81E0719D623D00089142D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9C81E1F19D623D00089142D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9C81E2019D623D00089142D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9C81E2419D623D10089142D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C9C81E2519D623D10089142D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9C81E2719D623D10089142D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FavAlbums/FavAlbums-Prefix.pch";
+				INFOPLIST_FILE = "FavAlbums/FavAlbums-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C9C81E2819D623D10089142D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FavAlbums/FavAlbums-Prefix.pch";
+				INFOPLIST_FILE = "FavAlbums/FavAlbums-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C9C81E2A19D623D10089142D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FavAlbums.app/FavAlbums";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FavAlbums/FavAlbums-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FavAlbumsTests/FavAlbumsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C9C81E2B19D623D10089142D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FavAlbums.app/FavAlbums";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FavAlbums/FavAlbums-Prefix.pch";
+				INFOPLIST_FILE = "FavAlbumsTests/FavAlbumsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9C81DEC19D623D00089142D /* Build configuration list for PBXProject "FavAlbums" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C81E2419D623D10089142D /* Debug */,
+				C9C81E2519D623D10089142D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9C81E2619D623D10089142D /* Build configuration list for PBXNativeTarget "FavAlbums" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C81E2719D623D10089142D /* Debug */,
+				C9C81E2819D623D10089142D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C9C81E2919D623D10089142D /* Build configuration list for PBXNativeTarget "FavAlbumsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C81E2A19D623D10089142D /* Debug */,
+				C9C81E2B19D623D10089142D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9C81DE919D623D00089142D /* Project object */;
+}
